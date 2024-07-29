@@ -23,8 +23,8 @@
 #### 添加射线
 通过右键找到Prefab中的Unpack解锁Player模型，将'HTC.UnityPlugin/ViveInputUtility/Prefabs'里的'VivePointers'添加到'Player下SteamVRObjects'里.
 #### 射线开关
-复制一份GuideLine，并修改Material材质.
-添加脚本'VivePointersControl'到VivePointers下，并赋值手柄按键.
+1.复制一份GuideLine，并修改Material材质.<br>
+2.添加脚本'VivePointersControl'到VivePointers下，并赋值手柄按键.
 #### 射线红绿
 修改Reticle中ReticlePoser脚本，添加 List<GameObject> interactive用存储交互物体，if控制射线的红绿.
 
@@ -41,15 +41,15 @@
 ### Step 6
 
 #### 触碰器
-创建Cube，用于告知触碰范围.
-子对象创建Cube，在Box Collider勾选Is Trigger(启动交互)，添加Rigidbody组件，勾选Is Kinematic(启动运动学).
-添加脚本'TouchRange'到子对象Cube，用于触碰后的操作.
+1.创建Cube，用于告知触碰范围.<br>
+2.子对象创建Cube，在Box Collider勾选Is Trigger(启动交互)，添加Rigidbody组件，勾选Is Kinematic(启动运动学).<br>
+3.添加脚本'TouchRange'到子对象Cube，用于触碰后的操作.
 #### Player添加触碰交互
 创建Cube，用于地底触碰.
 
 ### Step 7
 
 #### 面板
-创建Canvas，操作如上次一样，将Canvas中的Render Mode设置为World Space，将Canvas Scaler和Graphic Raycaster禁用，然后挂载自带的'Canvas Raycast Target'脚本，便于UI交互。<br>
-创建Panel空对象，并添加脚本'MenuBar'。<br>
-创建三个图片，分别是MenuScreen、TextScreen、VideoScreen，具体情况如分布。
+1.创建Canvas，操作如上次一样，将Canvas中的Render Mode设置为World Space，将Canvas Scaler和Graphic Raycaster禁用，然后挂载自带的'Canvas Raycast Target'脚本，便于UI交互。<br>
+2.创建Panel空对象，并添加脚本'MenuBar'。<br>
+3.创建三个图片，分别是MenuScreen、TextScreen、VideoScreen，具体情况如分布。
