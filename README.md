@@ -64,5 +64,6 @@
 >Plan hide用于隐藏/显示某些物体
 >Platform是平台，模型放于平台内
 
-##### Hierarchy
+##配图
+### Hierarchy
 ![图片描述](Image/Hierarchy.png)
