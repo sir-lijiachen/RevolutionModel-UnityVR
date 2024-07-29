@@ -45,11 +45,11 @@
 2.子对象创建Cube，在Box Collider勾选Is Trigger(启动交互)，添加Rigidbody组件，勾选Is Kinematic(启动运动学).<br>
 3.添加脚本'TouchRange'到子对象Cube，用于触碰后的操作.
 #### Player添加触碰交互
-创建Cube，用于地底触碰.
+* 创建Cube，用于地底触碰.
 
 ### Step 7
 
 #### 面板
-1.创建Canvas，操作如上次一样，将Canvas中的Render Mode设置为World Space，将Canvas Scaler和Graphic Raycaster禁用，然后挂载自带的'Canvas Raycast Target'脚本，便于UI交互。<br>
-2.创建Panel空对象，并添加脚本'MenuBar'。<br>
-3.创建三个图片，分别是MenuScreen、TextScreen、VideoScreen，具体情况如分布。
+* 创建Canvas，操作如上次一样，将Canvas中的Render Mode设置为World Space，将Canvas Scaler和Graphic Raycaster禁用，然后挂载自带的'Canvas Raycast Target'脚本，便于UI交互。<br>
+* 创建Panel空对象，并添加脚本'MenuBar'。<br>
+* 创建三个图片，分别是MenuScreen、TextScreen、VideoScreen，具体情况如分布。
