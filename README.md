@@ -51,5 +51,6 @@
 
 #### 面板
 创建Canvas，操作如上次一样，将Canvas中的Render Mode设置为World Space，将Canvas Scaler和Graphic Raycaster禁用，然后挂载自带的'Canvas Raycast Target'脚本，便于UI交互。
+
 创建Panel空对象，并添加脚本'MenuBar'。
 创建三个图片，分别是MenuScreen、TextScreen、VideoScreen，具体情况如分布。
