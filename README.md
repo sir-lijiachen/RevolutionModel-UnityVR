@@ -50,7 +50,8 @@
 ### Step 7
 
 #### 面板
-* 创建Canvas，操作如上次一样，将Canvas中的Render Mode设置为World Space，将Canvas Scaler和Graphic Raycaster禁用，然后挂载自带的'Canvas Raycast Target'脚本，便于UI交互.<br>
+* 创建空对象Panel.
+* 创建Canvas，放于Panel下。操作如上次一样，将Canvas中的Render Mode设置为World Space，将Canvas Scaler和Graphic Raycaster禁用，然后挂载自带的'Canvas Raycast Target'脚本，便于UI交互.<br>
 * 创建Panel空对象，并添加脚本'MenuBar'.<br>
 * 创建三个图片，分别是MenuScreen、TextScreen、VideoScreen.
 >具体情况如分布
@@ -58,3 +59,7 @@
 ### Step 8
 
 #### 机械臂
+* 创建空对象Mechanical arm，并添加脚本'MechanicalArm'
+* 创建子对象Plan hide和Platform
+>Plan hide用于隐藏/显示某些物体
+>Platform是平台，模型放于平台内

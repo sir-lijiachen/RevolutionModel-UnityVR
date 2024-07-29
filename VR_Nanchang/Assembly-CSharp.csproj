@@ -66,7 +66,6 @@
     <Compile Include="Assets\Script\MenuBar.cs" />
     <Compile Include="Assets\Script\TouchRange.cs" />
     <Compile Include="Assets\Script\MechanicalArm.cs" />
-    <Compile Include="Assets\Text001.cs" />
     <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Example Scenes\Tutorial Scenes\Files\Scripts\AnimateCutout.cs" />
     <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Scripts\Controllers\AdvancedDissolvePropertiesController.cs" />
     <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Example Scenes\Tutorial Scenes\Files\Scripts\CameraOrbitalMove.cs" />
