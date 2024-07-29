@@ -57,11 +57,49 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenAnimationInspector.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Property Drawers\AdvancedDissolveExponentalDrawer.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Property Drawers\AdvancedDissolveColorRGBDrawer.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Utilities\AdvancedDissolveRemoveObsoleteKeywords.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Property Drawers\AdvancedDissolveUVScrollDrawer.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Built-in Shader Editors\VertexLitShaderGUI.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Script Editors\AdvancedDissolvePropertiesControllerEditor.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Utilities\AdvancedDissolveUtilites.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Utilities\AdvancedDissolveGenerateShader.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Built-in Shader Editors\DefaultUnlitShaderGUI.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Base\EditorGUIHelper.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Property Drawers\AdvancedDissolveCutoutDrawer.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Built-in Shader Editors\StandardShaderGUI.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Property Drawers\AdvancedDissolveToggleFloatDrawer.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Built-in Shader Editors\SpeedTree\SpeedTree8ShaderGUI.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Utilities\AdvancedDissolveKeywordsBaker.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Property Drawers\Keywords\AdvancedDissolveKeywordCutoutVolumetricsCountDrawer.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Script Editors\AdvancedDissolveGeometricCutoutControllerEditor.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Built-in Shader Editors\SpeedTree\SpeedTreeMaterialInspector.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Property Drawers\Keywords\AdvancedDissolveKeywordCutoutVolumetricTypeDrawer.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Property Drawers\Keywords\AdvancedDissolveKeywordGlobalControlIDDrawer.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Built-in Shader Editors\OneDirectionalLightShaderGUI.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Property Drawers\Keywords\AdvancedDissolveKeywordEdgeUVDistortionSourceDrawer.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Property Drawers\Keywords\AdvancedDissolveKeywordEdgeBaseSourceDrawer.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Property Drawers\Keywords\AdvancedDissolveKeywordEdgeAdditionalColorSourceDrawer.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Property Drawers\Keywords\AdvancedDissolveKeywordStateDrawer.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Property Drawers\Keywords\AdvancedDissolveKeywordCutoutSimpleSourceDrawer.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Utilities\AdvancedDissolveUpdateShaders.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Property Drawers\Keywords\AdvancedDissolveKeywordCutoutSimpleMappingTypeDrawer.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Material Editor\AdvancedDissolveMaterialEditor.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Property Drawers\AdvancedDissolvePositiveFloatDrawer.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Built-in Shader Editors\DefaultLitShaderGUI.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Base\AssetInfo.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Script Editors\AdvancedDissolveKeywordsControllerEditor.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Built-in Shader Editors\StandardParticlesShaderGUI.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Property Drawers\Keywords\AdvancedDissolveKeywordsDrawer.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Built-in Shader Editors\UnlitShaderGUI.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Utilities\AdvancedDissolveKeywords.txt" />
     <None Include="Assets\Demigiant\DOTween\Editor\DOTweenEditor.dll" />
     <None Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenProEditor.XML" />
     <None Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll" />
+    <None Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Utilities\AdvancedDissolveProperties.txt" />
     <None Include="Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
     <None Include="Assets\Demigiant\DOTween\Editor\DOTweenEditor.XML" />
     <None Include="Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.dll" />
