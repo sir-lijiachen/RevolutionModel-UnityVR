@@ -65,4 +65,4 @@
 >Platform是平台，模型放于平台内
 
 ##### Hierarchy
-![图片描述](../images/Hierarchy.png)
+![图片描述](../Images/Hierarchy.png)
