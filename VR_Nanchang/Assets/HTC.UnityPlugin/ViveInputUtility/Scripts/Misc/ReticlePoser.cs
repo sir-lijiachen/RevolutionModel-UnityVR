@@ -3,6 +3,7 @@
 #pragma warning disable 0649
 using HTC.UnityPlugin.Pointer3D;
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Serialization;
@@ -45,6 +46,28 @@ public class ReticlePoser : MonoBehaviour
 
     private bool isReticleVisible;
     private Material m_matFromChanger;
+
+    public List<GameObject> interactive; // 需要交互的物体
+    public GameObject guideLine_1; // 红色射线
+    public GameObject guideLine_2; // 绿色射线
+
+    // 更新方法，用于控制瞄准标记的显示状态
+    private void Update()
+    {
+        guideLine_1.SetActive(false);
+        guideLine_2.SetActive(false);
+
+        // 如果 hitTarget 不为空且在 inter 列表中，则显示 guideLine_2
+        if (hitTarget != null && interactive.Contains(hitTarget))
+        {
+            guideLine_2.SetActive(true);
+        }
+        else
+        {
+            guideLine_1.SetActive(true);
+        }
+    }
+
 #if UNITY_EDITOR
     protected virtual void Reset()
     {

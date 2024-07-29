@@ -56,200 +56,200 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\UnityEngineVRModule_5_5.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaySegmentGenerator\ProjectionGenerator.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\PoseModifiers\PoseDirection.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\UnityXRModuleBase.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUSettingsPartials\OculusSettings.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Utility\ContainerPool\IndexedSetPool.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveInput\ViveInputVirtualButton.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveInput\ViveInputButtonMask.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\UnityEngineVRModule_5_6.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaycastMethod\Physics2DRaycastMethod.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\6.ControllerManagerSample\Scripts\ShowMenuOnClick.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\ViveRoleProperty.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\OverlayKeyboardSample.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaycastMethod\CanvasRaycastMethod.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\HandJointUpdater.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\OculusVRExtension\VIUOvrAvatar.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\VRCameraHook.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\8.NearFieldHandInteraction\Scripts\Ball.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUSettingsPartials\WaveVRSettings.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\5.ColliderEvent\Scripts\ResetButton.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\10.ControllerTooltips\SelectColorUIController.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\VRModuleSettings.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\Container\IndexedTable.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUSettingsPartials\BindingUISettings.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\SimulatorModule.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\ContainerPool\ObjectPool.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\BindingInterface\BindingInterfaceConfigPanelController.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\VRModuleDeviceState.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\GuideLineDrawer.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\Container\OrderedIndexedTable.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\RoleMaps\TrackerRole.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\PoseTracker.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\ExCamConfigInterface\ExCamConfigInterfacePanelController.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaycastMethod\CanvasRaycastTarget.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\UnityXRModuleBase.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\UnityXRModuleUtil.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ControllerTooltip\TooltipRenderDataAssetBase.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\OculusVRExtension\VIUOculusVRRenderModel.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUSyntheticDevice.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\BindingInterface\BindingInterfaceDevicePanelController.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\ReticlePoser.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\Base\IPoseModifier.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Utility\Attribute\CustomOrderedEnumAttribute.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\GrabbableBase.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaySegmentGenerator\Base\BaseRaySegmentGenerator.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\BindingInterface\BindingInterfaceRoleSetBindingItem.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\ContainerPool\ListPool.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VivePose\VivePoseGet.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\Base\IPoseTracker.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRaycaster\ViveRaycaster.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\PoseModifiers\PoseFreezer.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\VRModule.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\ViveRoleMapHandler.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUSettingsPartials\UnityNativeVRSettings.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\UnityEngineVRModule_2017_1.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\Raycaster\Base\BaseFallbackCamRaycaster.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\SingletonBehaviour.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\BindingInterface\BindingInterfaceDeviceItem.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\MaterialChanger.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveInput\ControllerState.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\OculusVRModule.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveInput\ViveInputButtonMask.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\6.ControllerManagerSample\Scripts\ShowMenuOnClick.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\OculusVRExtension\VIUOvrAvatar.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaySegmentGenerator\ProjectileGenerator.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\TouchReticlePoser.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\DeviceInputDebugger.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\VRModuleBase.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ColliderEvent\ExecuteColliderEvents.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ControllerTooltip\TooltipRendererBase.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUSettingsPartials\UnityXRSettings.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\8.NearFieldHandInteraction\Scripts\MaterialSwitcher.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\PoseModifiers\PoseLookAtNearestCanvas.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\StandaloneRaycaster\StandaloneRaycaster.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\UnityEngineVRModule.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\Bool3.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VivePose\VivePoseTracker.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\PoseModifiers\PoseDirection.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\UnityEngineVRModule_5_6.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaycastMethod\CanvasRaycastMethod.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\ContainerPool\DictionaryPool.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\RoleMaps\BodyRole.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveInput\ViveInput.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUSettingsPartials\DaydreamSettings.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\LiteCoroutine\LiteCoroutineYieldInstruction.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\6.ControllerManagerSample\Scripts\SpawnObjectOnTriggerExit.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\LiteCoroutine\LiteCoroutineManager.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\OculusVRExtension\VIUOculusVRRenderModel.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VivePose\VivePose.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\RoleMaps\HandRole.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\TouchPointer\TouchPointerEventData.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUSettingsPartials\ExternalCameraSettings.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\ViveRoleMap.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\LiteCoroutine\LiteCoroutineHandle.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ControllerTooltip\DefaultTooltipRenderDataAsset.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\2.2DDragDrop\Scripts\DropImage.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\HandJoint\HandJointName.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Submodules\PartialSettings\ViveHandTrackingSubmoduleSettings.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\RoleMaps\PrimaryHandRole.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUSettings.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Submodules\PartialSettings\WaveTrackerSubmoduleSettings.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUSettingsPartials\OculusSettings.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\ChangeProp.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\UnityEngineVRModule_2017_2.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\SteamVRExtension\VIUSteamVRRenderModelLoader.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\Pointer3DInputModule.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\BasicGrabbable.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveColliderEvent\ViveColliderEventData.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\6.ControllerManagerSample\Scripts\ChangeMaterialToButtonsColor.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\VRModuleManager.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\8.NearFieldHandInteraction\Scripts\ItemSpawner.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\Container\EnumArray.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\WaveVRModule.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\ViveRoleBindingsHelper.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\HandJointUpdater.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\SteamVRExtension\VIUSteamVRRenderModel.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Submodules\PartialSettings\WaveHandTrackingSubmoduleSettings.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\GoogleVRModule.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\TouchPointer\TouchPointerRaycaster.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\Utility\EnumUtils.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\SteamVRCameraHook.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\LiteCoroutine\LiteTask.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaySegmentGenerator\ProjectileGenerator.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\LiteCoroutine\LiteCoroutine.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\BindingInterface\BindingInterfaceRoleSetButtonItem.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\Pose.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Utility\ChangeProp.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\TouchReticlePoser.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Utility\ContainerPool\ListPool.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\StickyGrabbable.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Utility\Container\IndexedTable.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VivePose\VivePose.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\Utility\Attribute\FlagsFromEnumAttribute.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Utility\RigidPose.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VivePose\VivePoseGet.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\PoseModifiers\PoseEaser.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\VRModule\Submodules\WaveTrackerSubmodule.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\Base\IPoseTracker.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\DeviceInputDebugger.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaySegmentGenerator\DefaultGenerator.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\8.NearFieldHandInteraction\Scripts\PushButton.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\Shared\Scripts\CustomDeviceHeight.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\Base\BasePoseTracker.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\OculusVRExtension\OculusHandRenderModel.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\RenderModelHook.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveInput\ViveInputStatic.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\Pointer3DEventData.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ControllerTooltip\TooltipRigAsset.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ControllerTooltip\DefaultTooltipRenderer.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\SteamVRModule.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUSettingsPartials\SimulatorSettings.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Submodules\WaveHandTrackingSubmodule.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\UnityEngineVRModule_5_5.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\PoseModifiers\PoseStablizer.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUSettingsPartials\BindingUISettings.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\SimulatorModule.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VivePose\ViveRigidPoseTracker.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRaycaster\ViveRaycaster.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\8.NearFieldHandInteraction\Scripts\CubeSlider.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\BindingInterface\BindingInterfaceRolePanelController.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\LiteCoroutine\Examples\LiteCoroutineExample.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ColliderEvent\ColliderEventInterfaces.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\ControllerManagerSample.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\LiteCoroutine\Examples\LiteTaskExample.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\VRModuleSettings.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\LiteCoroutine\LiteTask.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\SteamVRv2Module.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaycastMethod\PhysicsRaycastMethod.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\Shared\Scripts\RendererColorChanger.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\RoleMaps\ControllerRole.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\Teleportable.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\BindingInterface\BindingInterfaceRoleSetBindingItem.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\LiteCoroutine\LiteCoroutine.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\RigidPose.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaycastMethod\Base\IRaycastMethod.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ControllerTooltip\DefaultTooltipPrefab.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\ExternalCameraHook.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\BindingInterface\BindingInterfaceRoleButtonItem.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaycastMethod\Base\BaseRaycastMethod.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\VRModuleEvent.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\ViveRoleEnum.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUSettingsPartials\OpenVRSettings.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\9.TrackedHandUGUIInteraction\Scripts\TransformScrollAndScaler.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\Raycaster\Base\BaseMultiMethodRaycaster.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\8.NearFieldHandInteraction\Scripts\Ball.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUSettingsPartials\WaveVRSettings.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\ViveRole.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\UnityEngineVRModule_2017_2.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\SteamVRExtension\VIUSteamVRRenderModelLoader.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\RoleMaps\TrackerRole.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\ColliderEvent\ColliderEventData.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveColliderEvent\ViveColliderEventCaster.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\PoseModifiers\PoseFreezer.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\SteamVRv2Module.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaycastMethod\Base\IRaycastMethod.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\UnityXRModule.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\LiteCoroutine\Examples\LiteCoroutineExample.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\8.NearFieldHandInteraction\Scripts\Lever.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\Pointer3DInputModule.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\3.3DDrag\Scripts\PlayGroundManager.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\BasicGrabbable.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ControllerTooltip\DefaultTooltipPrefab.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\VRModule.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\PoseTracker.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Utility\ContainerPool\DictionaryPool.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveColliderEvent\ViveColliderEventData.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\ExCamConfigInterface\ExCamConfigInterfacePanelController.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\ViveRoleMapHandler.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\Shared\Scripts\CustomDeviceHeight.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Utility\ContainerPool\ObjectPool.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaycastMethod\GraphicRaycastMethod.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\10.ControllerTooltips\ModeManager.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\RoleMaps\HandRole.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUVersion.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\ExternalCameraHook.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\8.NearFieldHandInteraction\Scripts\HoverEventHandler.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\HandJoint\JointPose.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\ViveRoleSetter.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\2.2DDragDrop\Scripts\DragImage.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaySegmentGenerator\Base\IRaySegmentGenerator.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaycastMethod\Physics2DRaycastMethod.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\OverlayKeyboardSample.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\5.ColliderEvent\Scripts\ResetButton.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\10.ControllerTooltips\SelectColorUIController.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\Attribute\CustomOrderedEnumAttribute.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\StickyGrabbable.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\8.NearFieldHandInteraction\Scripts\PushButton.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\8.NearFieldHandInteraction\Scripts\Lever.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\StandaloneRaycaster\StandaloneEventData.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\Base\BasePoseTracker.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\5.ColliderEvent\Scripts\GravitySwitch.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\VRModuleBase.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VivePose\ViveJointPoseTracker.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Utility\Container\IndexedSet.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUSettingsPartials\UnityNativeVRSettings.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\3.3DDrag\Scripts\Draggable.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\6.ControllerManagerSample\Scripts\ChangeMaterialToButtonsColor.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\RoleMaps\BodyRole.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\TouchPointer\TouchPointerEventData.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\Base\BasePoseModifier.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\Container\OrderedIndexedSet.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\Raycaster\Pointer3DRaycaster.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaySegmentGenerator\ProjectionGenerator.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\VRCameraHook.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\GrabbableBase.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\3.3DDrag\Scripts\PlayGroundManager.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\10.ControllerTooltips\ModeManager.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaycastMethod\GraphicRaycastMethod.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\5.ColliderEvent\Scripts\GravitySwitch.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\Container\IndexedSet.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\ExCamConfigInterface\ExCamConfigInterfaceDraggableLabel.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\BindingInterface\BindingInterfaceSpriteManager.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Submodules\ViveHandTrackingSubmodule.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\4.Teleport\Scripts\ImageAlphaRaycastFilter.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\ContainerPool\IndexedSetPool.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveInput\ViveInputVirtualButton.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ControllerTooltip\TooltipRenderDataAssetBase.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUSyntheticDevice.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\ReticlePoser.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\Base\IPoseModifier.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\SteamVRCameraHook.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaySegmentGenerator\DefaultGenerator.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\8.NearFieldHandInteraction\Scripts\CubeSlider.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\UnityXRModule.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\OculusVRExtension\VIUOvrAvatarComponent.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\BindingInterface\BindingInterfaceConfigPanelController.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\OculusVRExtension\OculusHandRenderModel.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\BindingInterface\BindingInterfaceRoleButtonItem.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUSettingsPartials\ExternalCameraSettings.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\RenderModelHook.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ColliderEvent\ExecuteColliderEvents.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\ExecutePointer3DEvents.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\RoleMaps\TrackedHandRole.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ControllerTooltip\TooltipRendererBase.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\ViveRoleMap.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ColliderEvent\ColliderEventInterfaces.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveInput\ViveInput.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUSettingsPartials\UnityXRSettings.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaycastMethod\PhysicsRaycastMethod.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\8.NearFieldHandInteraction\Scripts\HoverEventHandler.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\UnityEngineVRModule_2017_1.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\8.NearFieldHandInteraction\Scripts\MaterialSwitcher.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\LiteCoroutine\LiteCoroutineHandle.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\Shared\Scripts\RendererColorChanger.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\Raycaster\Base\BaseFallbackCamRaycaster.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\VRModuleDeviceState.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\GuideLineDrawer.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\Base\BasePoseModifier.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\Pointer3DEventInterfaces.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ControllerTooltip\DefaultTooltipRenderDataAsset.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUSettingsPartials\DaydreamSettings.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Utility\HandJoint\JointPose.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\VRModuleManager.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Utility\Container\OrderedIndexedTable.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\PoseModifiers\PoseLookAtNearestCanvas.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveInput\ViveInputStatic.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\StandaloneRaycaster\StandaloneRaycaster.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRaycaster\VivePointerEventData.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\2.2DDragDrop\Scripts\DropImage.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\Pointer3DEventData.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\WaveVRExtension\VIUWaveVRRenderModel.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\2.2DDragDrop\Scripts\DropObject.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ControllerTooltip\TooltipRigAsset.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Utility\HandJoint\HandJointName.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\UnityEngineVRModule.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\ControllerManagerSample.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\ViveRoleSetter.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\LiteCoroutine\LiteCoroutineYieldStack.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\BindingInterface\BindingInterfaceRoleSetPanelController.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaycastMethod\Base\BaseRaycastMethod.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\ExCamConfigInterface\ExCamConfigInterfaceDraggableLabel.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\8.NearFieldHandInteraction\Scripts\ItemSpawner.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Submodules\PartialSettings\ViveHandTrackingSubmoduleSettings.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\BindingInterface\BindingInterfaceSpriteManager.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\VRModuleEvent.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\RoleMaps\ControllerRole.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\RoleMaps\PrimaryHandRole.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\2.2DDragDrop\Scripts\DragImage.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Utility\Container\OrderedIndexedSet.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\LiteCoroutine\LiteCoroutineYieldInstruction.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Utility\SingletonBehaviour.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\BindingInterface\BindingInterfaceDeviceItem.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Submodules\ViveHandTrackingSubmodule.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Utility\Container\EnumArray.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Utility\Bool3.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaycastMethod\CanvasRaycastTarget.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\4.Teleport\Scripts\ImageAlphaRaycastFilter.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ControllerTooltip\DefaultTooltipRenderer.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\RoleMaps\DeviceRole.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VivePose\VivePoseTracker.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\LiteCoroutine\Examples\LiteTaskExample.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\SteamVRModule.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\6.ControllerManagerSample\Scripts\SpawnObjectOnTriggerExit.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\ViveRoleEnum.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUSettingsPartials\SimulatorSettings.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\Teleportable.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\LiteCoroutine\LiteCoroutineUpdater.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUSettingsPartials\OpenVRSettings.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\WaveVRModule.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\MaterialChanger.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Submodules\WaveHandTrackingSubmodule.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\Raycaster\Pointer3DRaycaster.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\LiteCoroutine\LiteCoroutineManager.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveInput\ControllerState.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\ViveRoleBindingsHelper.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\OculusVRModule.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VIUSettings.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Submodules\PartialSettings\WaveTrackerSubmoduleSettings.cs" />
     <Compile Include="Assets\HTC.UnityPlugin\ColliderEvent\ColliderEventCaster.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\9.TrackedHandUGUIInteraction\Scripts\TransformScrollAndScaler.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaySegmentGenerator\Base\IRaySegmentGenerator.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\Raycaster\Base\BaseMultiMethodRaycaster.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Submodules\PartialSettings\WaveHandTrackingSubmoduleSettings.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\Pose.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VivePose\ViveRigidPoseTracker.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\BindingInterface\BindingInterfaceRolePanelController.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VivePose\ViveJointPoseTracker.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\BindingInterface\BindingInterfaceRoleSetPanelController.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\RoleMaps\DeviceRole.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\LiteCoroutine\LiteCoroutineUpdater.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\HTC.UnityPlugin\UPMRegistryTool\Editor\Resources\LICENSE.txt" />
@@ -516,6 +516,21 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.20f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Valve.Newtonsoft.Json">
+      <HintPath>Assets\SteamVR\Input\Plugins\JSON.NET\Valve.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -531,32 +546,44 @@
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst.Cecil">
       <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
-    <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>Assets\SteamVR\Input\Plugins\JSON.NET\Valve.Newtonsoft.Json.dll</HintPath>
+    <Reference Include="DOTween46">
+      <HintPath>Assets\Demigiant\DOTween\DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>Assets\Demigiant\DOTween\DOTween50.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenProEditor">
+      <HintPath>Assets\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiLib">
+      <HintPath>Assets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>Assets\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiEditor">
+      <HintPath>Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>Assets\Demigiant\DOTween\DOTween43.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.20f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -945,11 +972,11 @@
     <Reference Include="Unity.XR.OpenXR">
       <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
