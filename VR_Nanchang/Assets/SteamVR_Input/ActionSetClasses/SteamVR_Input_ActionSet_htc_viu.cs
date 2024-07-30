@@ -376,13 +376,5 @@ namespace Valve.VR
                 return SteamVR_Actions.htc_viu_viu_skeleton_right;
             }
         }
-        
-        public virtual SteamVR_Action_Vibration viu_vib_01
-        {
-            get
-            {
-                return SteamVR_Actions.htc_viu_viu_vib_01;
-            }
-        }
     }
 }

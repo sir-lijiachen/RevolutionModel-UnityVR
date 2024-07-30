@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Serialization;
+using Valve.VR;
 
 public class ReticlePoser : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class ReticlePoser : MonoBehaviour
     {
         Material reticleMaterial { get; }
     }
-
+    
     public Pointer3DRaycaster raycaster;
     [FormerlySerializedAs("Target")]
     [FormerlySerializedAs("reticleForDefaultRay")]
@@ -22,7 +23,7 @@ public class ReticlePoser : MonoBehaviour
     public Transform reticleForCurvedRay;
     public bool showOnHitOnly = true;
 
-    public GameObject hitTarget;
+    public GameObject hitTarget;//击中的物体
     public float hitDistance;
     public Material defaultReticleMaterial;
     public Renderer[] reticleRenderer;
@@ -47,26 +48,46 @@ public class ReticlePoser : MonoBehaviour
     private bool isReticleVisible;
     private Material m_matFromChanger;
 
-    public List<GameObject> interactive; // 需要交互的物体
-    public GameObject guideLine_1; // 红色射线
-    public GameObject guideLine_2; // 绿色射线
+
+    [Header("需要交互的物体")]
+    [SerializeField] private List<GameObject> interactive; // 需要交互的物体
+    [SerializeField] private GameObject guideLine_false; // 红色射线
+    [SerializeField] private GameObject guideLine_true; // 绿色射线
+
+    [SerializeField] private SteamVR_Action_Boolean togglePointerAction; // 扣动扳机动作
 
     // 更新方法，用于控制瞄准标记的显示状态
     private void Update()
     {
-        guideLine_1.SetActive(false);
-        guideLine_2.SetActive(false);
+        guideLine_false.SetActive(false);
+        guideLine_true.SetActive(false);
 
-        // 如果 hitTarget 不为空且在 inter 列表中，则显示 guideLine_2
+        // 如果 hitTarget 不为空且在 inter 列表中，则显示 guideLine_true
         if (hitTarget != null && interactive.Contains(hitTarget))
         {
-            guideLine_2.SetActive(true);
+            guideLine_true.SetActive(true);
         }
         else
         {
-            guideLine_1.SetActive(true);
+            guideLine_false.SetActive(true);
+        }
+
+        //检测扳机按下开门物体
+    }
+
+    // 交互逻辑（例如开门）
+    private void InteractWithObject(GameObject target)
+    {
+        if (target != null)
+        {
+            int index = interactive.IndexOf(target);
+            if (index == 2) // 判断是否为列表中的第 3 个物体（索引为 2）
+            {
+                Debug.Log($"与第 3 个物体 {target.name} 交互");
+            }
         }
     }
+
 
 #if UNITY_EDITOR
     protected virtual void Reset()

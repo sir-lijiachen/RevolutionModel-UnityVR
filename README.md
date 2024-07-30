@@ -64,6 +64,10 @@
 >Plan hide用于隐藏/显示某些物体
 >Platform是平台，模型放于平台内
 
+## 问题
+### 震动问题
+* SteamVR Input 修改
+
 ## 配图
 ### Hierarchy
 ![图片描述](Image/Hierarchy.png)

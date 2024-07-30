@@ -10,6 +10,7 @@ using UnityEngine.Video;
 public class MenuBar : MonoBehaviour
 {
     public MechanicalArm mechanicalArm;
+
     private Transform buttonListTran;
 
     public GameObject menuScreenObject;//菜单屏幕
@@ -46,15 +47,17 @@ public class MenuBar : MonoBehaviour
         videoScreenObject.transform.position = new Vector3(xOffset, 0, -zOffset);
     }
 
+    //点击按钮进行动画
     private void ClickButton(int num)
     {
         mechanicalArm.MoveToFront(num);//转动
-        MenuScreenSwitch(false);
+        MenuScreenSwitch(false);//关闭菜单屏幕
         TextScreen(num);
 
 
         /*知识屏出现，并有按钮*/
     }
+    //文字屏幕
     private void TextScreen(int num)
     {
         //该物体的介绍
@@ -67,6 +70,7 @@ public class MenuBar : MonoBehaviour
         VideoScreenSwitch(true);
         VideoClip video = Resources.Load<VideoClip>($"Video/0");
         videoPlay.clip = video;
+        videoPlay.Play();
         videoExit.onClick.AddListener(CloseVideo);
     }
     //退出视频

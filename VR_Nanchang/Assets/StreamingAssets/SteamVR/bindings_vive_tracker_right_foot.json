@@ -1,8 +1,9 @@
 {
-  "controller_type": "vive_tracker_right_foot",
   "bindings": {
     "/actions/htc_viu": {
       "chords": [],
+      "poses": [],
+      "haptics": [],
       "sources": [
         {
           "path": "/user/foot/right/input/power",
@@ -55,13 +56,6 @@
           }
         }
       ],
-      "poses": [],
-      "haptics": [
-        {
-          "output": "/actions/htc_viu/out/viu_vib_01",
-          "path": "/user/foot/right/output/haptic"
-        }
-      ],
       "skeleton": [
         {
           "output": "/actions/htc_viu/in/viu_skeleton_left",
@@ -73,5 +67,6 @@
         }
       ]
     }
-  }
+  },
+  "controller_type": "vive_tracker_right_foot"
 }

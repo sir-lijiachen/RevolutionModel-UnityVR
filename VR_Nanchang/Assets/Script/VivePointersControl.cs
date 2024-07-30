@@ -18,7 +18,7 @@ public class VivePointersControl : MonoBehaviour
         TogglePointer();// «–ªª…‰œﬂ∑¢…‰◊¥Ã¨
     }
 
-    // «–ªª…‰œﬂ∑¢…‰◊¥Ã¨
+    // «–ªª…‰œﬂ∑¢…‰∆Ù∂Ø/πÿ±’
     private void TogglePointer()
     {
         if (togglePointerAction.GetStateDown(SteamVR_Input_Sources.Any))
