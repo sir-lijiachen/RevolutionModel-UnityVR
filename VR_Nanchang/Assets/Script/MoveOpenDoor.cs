@@ -32,7 +32,7 @@ public class MoveOpenDoor : MonoBehaviour
     void Update()
     {
         //ÎïÌå°â»ú
-        if(reticlePoser.hitTarget.name == "vfx_MagicOrb_v2")
+        if(reticlePoser.hitTarget.name == vfxObject.name)
         {
             if (togglePointerAction.GetStateDown(SteamVR_Input_Sources.Any))
             {

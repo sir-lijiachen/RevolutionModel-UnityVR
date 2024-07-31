@@ -80,6 +80,7 @@
     <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Example Scenes\Tutorial Scenes\Files\Scripts\CameraOrbitalMove.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\HDRP\Lit (Transparent).shader" />
     <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\Built-in\Nature\SoftOcclusion\TreeSoftOcclusionLeaves.shader" />
     <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\Built-in\Particles\Particle Blend.shader" />
     <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
@@ -90,10 +91,12 @@
     <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
     <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\Built-in\Standard\UnityStandardCore.cginc" />
     <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\Built-in\Mobile\Mobile-Particle-Alpha-VertexLit.shader" />
+    <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\HDRP\Lit (Cutout).shader" />
     <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\Built-in\Core\Vertex.cginc" />
     <None Include="Assets\Demigiant\readme_DOTweenPro.txt" />
     <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\Built-in\Nature\SoftOcclusion\UnityBuiltin2xTreeLibrary.cginc" />
     <None Include="Assets\Demigiant\DOTween\DOTween.XML" />
+    <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\HDRP\Unlit (Opaque, Emission).shader" />
     <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\Built-in\Standard\StandardSpecular.shader" />
     <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\Built-in\Particles\Particle Anim Alpha Blend.shader" />
     <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\cginc\Core.cginc" />
@@ -127,11 +130,13 @@
     <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\Built-in\Unlit\Unlit.cginc" />
     <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\cginc\Defines.cginc" />
     <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\Built-in\Particles\UnityStandardParticles.cginc" />
+    <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\HDRP\Lit (Opaque).shader" />
     <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\Built-in\Particles\Particle Multiply.shader" />
     <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\Built-in\Mobile\Mobile-BumpSpec.shader" />
     <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\Built-in\SpeedTree\SpeedTreeBillboardCommon.cginc" />
     <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\Built-in\Mobile\Mobile-BumpSpec-1DirectionalLight.shader" />
     <None Include="Assets\Demigiant\DOTweenPro\DOTweenPro.XML" />
+    <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\HDRP\Unlit (Opaque).shader" />
     <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\Built-in\One Directional Light\ForwardBase.cginc" />
     <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\Built-in\Mobile\Mobile-Particle-Multiply.shader" />
     <None Include="Assets\Amazing Assets\Advanced Dissolve\Shaders\Built-in\VertexLit\VertexLitCutout.shader" />

@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// Åö×²Æ÷
+/// </summary>
 public class TouchRange : MonoBehaviour
 {
     public MenuBar menuBar;

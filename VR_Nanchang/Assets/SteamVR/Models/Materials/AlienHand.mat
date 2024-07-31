@@ -2,126 +2,281 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: AlienHand
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _EMISSION _METALLICGLOSSMAP _NORMALMAP
-  m_LightmapFlags: 1
+  m_Shader: {fileID: 4800000, guid: 0ba4cb1f0df954c478baf740bac0744b, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _EMISSION
+  - _NORMALMAP
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
+  disabledShaderPasses: []
   m_SavedProperties:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TexEnvs:
-    - first:
-        name: _BumpMap
-      second:
+    - _AdvancedDissolveCutoutStandardMap1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AdvancedDissolveCutoutStandardMap2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AdvancedDissolveCutoutStandardMap3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AdvancedDissolveEdgeAdditionalColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AdvancedDissolveEdgeUVDistortionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
         m_Texture: {fileID: 2800000, guid: c895ac09c5f562b4798e88828f61e812, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _DetailAlbedoMap
-      second:
+    - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _DetailMask
-      second:
+    - _DetailMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _DetailNormalMap
-      second:
+    - _DetailNormalMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _EmissionMap
-      second:
+    - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _MainTex
-      second:
+    - _EmissiveColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
         m_Texture: {fileID: 2800000, guid: c7d922ead57c2c34ea7da4ad4c05bd61, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _MetallicGlossMap
-      second:
+    - _MaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
         m_Texture: {fileID: 2800000, guid: d6f0e028c1244404eb2d02959b9f8f60, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _OcclusionMap
-      second:
+    - _NormalMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _ParallaxMap
-      second:
+    - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
-    - first:
-        name: _BumpScale
-      second: 1
-    - first:
-        name: _Cutoff
-      second: 0.5
-    - first:
-        name: _DetailNormalMapScale
-      second: 1
-    - first:
-        name: _DstBlend
-      second: 0
-    - first:
-        name: _GlossMapScale
-      second: 1
-    - first:
-        name: _Glossiness
-      second: 0
-    - first:
-        name: _GlossyReflections
-      second: 1
-    - first:
-        name: _Metallic
-      second: 0
-    - first:
-        name: _Mode
-      second: 0
-    - first:
-        name: _OcclusionStrength
-      second: 1
-    - first:
-        name: _Parallax
-      second: 0.02
-    - first:
-        name: _SmoothnessTextureChannel
-      second: 0
-    - first:
-        name: _SpecularHighlights
-      second: 1
-    - first:
-        name: _SrcBlend
-      second: 1
-    - first:
-        name: _UVSec
-      second: 0
-    - first:
-        name: _ZWrite
-      second: 1
+    - _AddPrecomputedVelocity: 0
+    - _AdvancedDissolveCutoutGeometric1Height: 1
+    - _AdvancedDissolveCutoutGeometric1Radius: 1
+    - _AdvancedDissolveCutoutGeometric2Height: 1
+    - _AdvancedDissolveCutoutGeometric2Radius: 1
+    - _AdvancedDissolveCutoutGeometric3Height: 1
+    - _AdvancedDissolveCutoutGeometric3Radius: 1
+    - _AdvancedDissolveCutoutGeometric4Height: 1
+    - _AdvancedDissolveCutoutGeometric4Radius: 1
+    - _AdvancedDissolveCutoutGeometricInvert: 0
+    - _AdvancedDissolveCutoutGeometricNoise: 0.1
+    - _AdvancedDissolveCutoutGeometricXYZAxis: 0
+    - _AdvancedDissolveCutoutGeometricXYZRollout: 0
+    - _AdvancedDissolveCutoutGeometricXYZSpace: 0
+    - _AdvancedDissolveCutoutGeometricXYZStyle: 0
+    - _AdvancedDissolveCutoutStandardBaseInvert: 0
+    - _AdvancedDissolveCutoutStandardClip: 0.5
+    - _AdvancedDissolveCutoutStandardMap1Channel: 3
+    - _AdvancedDissolveCutoutStandardMap1Intensity: 1
+    - _AdvancedDissolveCutoutStandardMap1Invert: 0
+    - _AdvancedDissolveCutoutStandardMap2Channel: 3
+    - _AdvancedDissolveCutoutStandardMap2Intensity: 1
+    - _AdvancedDissolveCutoutStandardMap2Invert: 0
+    - _AdvancedDissolveCutoutStandardMap3Channel: 3
+    - _AdvancedDissolveCutoutStandardMap3Intensity: 1
+    - _AdvancedDissolveCutoutStandardMap3Invert: 0
+    - _AdvancedDissolveCutoutStandardMapsBlendType: 0
+    - _AdvancedDissolveCutoutStandardMapsScreenSpaceUVScale: 0
+    - _AdvancedDissolveCutoutStandardMapsTriplanarMappingSpace: 0
+    - _AdvancedDissolveEdgeAdditionalColorAlphaOffset: 0
+    - _AdvancedDissolveEdgeAdditionalColorClipInterpolation: 0
+    - _AdvancedDissolveEdgeAdditionalColorMapMipmap: 1
+    - _AdvancedDissolveEdgeAdditionalColorMapReverse: 0
+    - _AdvancedDissolveEdgeAdditionalColorPhaseOffset: 0
+    - _AdvancedDissolveEdgeAdditionalColorTransparency: 1
+    - _AdvancedDissolveEdgeBaseColorTransparency: 1
+    - _AdvancedDissolveEdgeBaseShape: 0
+    - _AdvancedDissolveEdgeBaseWidthGeometric: 0.1
+    - _AdvancedDissolveEdgeBaseWidthStandard: 0.1
+    - _AdvancedDissolveEdgeGIMetaPassMultiplier: 1
+    - _AdvancedDissolveEdgeUVDistortionStrength: 0
+    - _AdvancedDissolveKeywordCutoutGeometricCount: 0
+    - _AdvancedDissolveKeywordCutoutGeometricType: 0
+    - _AdvancedDissolveKeywordCutoutStandardSource: 0
+    - _AdvancedDissolveKeywordCutoutStandardSourceMapsMappingType: 0
+    - _AdvancedDissolveKeywordEdgeAdditionalColorSource: 0
+    - _AdvancedDissolveKeywordEdgeBaseSource: 0
+    - _AdvancedDissolveKeywordEdgeUVDistortionSource: 0
+    - _AdvancedDissolveKeywordGlobalControlID: 0
+    - _AdvancedDissolveKeywordState: 0
+    - _AlphaCutoffEnable: 1
+    - _AlphaDstBlend: 0
+    - _AlphaSrcBlend: 1
+    - _AlphaToMask: 0
+    - _AlphaToMaskInspectorValue: 0
+    - _BlendMode: 0
+    - _BlendOp: 0
+    - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _ColorMode: 0
+    - _Cull: 2
+    - _CullMode: 2
+    - _CullModeForward: 2
+    - _Cutoff: 0.5
+    - _DepthOffsetEnable: 0
+    - _DetailNormalMapScale: 1
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0
+    - _DoubleSidedEnable: 1
+    - _DoubleSidedNormalMode: 2
+    - _DstBlend: 0
+    - _EmissionEnabled: 0
+    - _EmissiveExposureWeight: 1
+    - _EmissiveIntensity: 0
+    - _EnableBlendModePreserveSpecularLighting: 0
+    - _EnableFogOnTransparent: 1
+    - _FlipbookMode: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _LightingEnabled: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _OpaqueCullMode: 2
+    - _Parallax: 0.02
+    - _RayTracing: 0
+    - _ReceivesSSR: 1
+    - _ReceivesSSRTransparent: 0
+    - _RefractionModel: 0
+    - _RenderQueueType: 1
+    - _RequireSplitLighting: 0
+    - _Smoothness: 0
+    - _SmoothnessTextureChannel: 0
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StencilRef: 0
+    - _StencilRefDepth: 8
+    - _StencilRefDistortionVec: 4
+    - _StencilRefGBuffer: 10
+    - _StencilRefMV: 40
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 8
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 14
+    - _StencilWriteMaskMV: 40
+    - _SupportDecals: 0
+    - _SurfaceType: 0
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentDepthPostpassEnable: 0
+    - _TransparentDepthPrepassEnable: 0
+    - _TransparentSortPriority: 0
+    - _TransparentWritingMotionVec: 0
+    - _TransparentZWrite: 0
+    - _UVSec: 0
+    - _UseShadowThreshold: 0
+    - _ZTestDepthEqualForOpaque: 4
+    - _ZTestGBuffer: 4
+    - _ZTestTransparent: 4
+    - _ZWrite: 1
     m_Colors:
-    - first:
-        name: _Color
-      second: {r: 1, g: 1, b: 1, a: 1}
-    - first:
-        name: _EmissionColor
-      second: {r: 0, g: 0, b: 0, a: 1}
+    - _AdvancedDissolveBakedKeywords: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutGeometric1Normal: {r: 1, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutGeometric1Position: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutGeometric2Normal: {r: 1, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutGeometric2Position: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutGeometric3Normal: {r: 1, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutGeometric3Position: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutGeometric4Normal: {r: 1, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutGeometric4Position: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutGeometricXYZPosition: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutStandardMap1Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutStandardMap1Scroll: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutStandardMap1Tiling: {r: 1, g: 1, b: 1, a: 0}
+    - _AdvancedDissolveCutoutStandardMap2Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutStandardMap2Scroll: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutStandardMap2Tiling: {r: 1, g: 1, b: 1, a: 0}
+    - _AdvancedDissolveCutoutStandardMap3Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutStandardMap3Scroll: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveCutoutStandardMap3Tiling: {r: 1, g: 1, b: 1, a: 0}
+    - _AdvancedDissolveEdgeAdditionalColor: {r: 1, g: 0, b: 0, a: 1}
+    - _AdvancedDissolveEdgeAdditionalColorIntensity: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveEdgeAdditionalColorMapOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveEdgeAdditionalColorMapScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveEdgeAdditionalColorMapTiling: {r: 1, g: 1, b: 1, a: 0}
+    - _AdvancedDissolveEdgeBaseColor: {r: 0, g: 1, b: 0, a: 1}
+    - _AdvancedDissolveEdgeBaseColorIntensity: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveEdgeUVDistortionMapOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveEdgeUVDistortionMapScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _AdvancedDissolveEdgeUVDistortionMapTiling: {r: 1, g: 1, b: 1, a: 0}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissiveColor: {r: 0, g: 0, b: 0, a: 0}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+  m_BuildTextureStacks: []

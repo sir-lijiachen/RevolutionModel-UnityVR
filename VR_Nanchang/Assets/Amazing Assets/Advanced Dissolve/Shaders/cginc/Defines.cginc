@@ -98,32 +98,6 @@
 #endif
 
 
-#if defined(_AD_EDGE_BASE_SOURCE_CUTOUT_STANDARD) || defined(_AD_EDGE_BASE_SOURCE_CUTOUT_GEOMETRIC) || defined(_AD_EDGE_BASE_SOURCE_ALL)
-//good
-#else
-	#if defined(_AD_EDGE_ADDITIONAL_COLOR_BASE_COLOR)
-	#undef      _AD_EDGE_ADDITIONAL_COLOR_BASE_COLOR
-	#endif
-
-	#if defined(_AD_EDGE_ADDITIONAL_COLOR_CUSTOM_MAP)
-	#undef      _AD_EDGE_ADDITIONAL_COLOR_CUSTOM_MAP
-	#endif
-
-	#if defined(_AD_EDGE_ADDITIONAL_COLOR_GRADIENT_MAP)
-	#undef      _AD_EDGE_ADDITIONAL_COLOR_GRADIENT_MAP
-	#endif
-
-	#if defined(_AD_EDGE_ADDITIONAL_COLOR_GRADIENT_COLOR)
-	#undef      _AD_EDGE_ADDITIONAL_COLOR_GRADIENT_COLOR
-	#endif
-
-	#if defined(_AD_EDGE_ADDITIONAL_COLOR_USER_DEFINED)
-	#undef      _AD_EDGE_ADDITIONAL_COLOR_USER_DEFINED
-	#endif
-#endif
-
-
-
 #if defined(_AD_EDGE_BASE_SOURCE_CUTOUT_GEOMETRIC)
 
 	//No Geometric edge width without Geometric cutout

@@ -4,7 +4,7 @@
     {
         public const string assetName = "Advanced Dissolve";
         public static readonly string assetNameTrimmed = assetName.Replace(" ", string.Empty);
-        public const string assetVersion = "2021.8";
+        public const string assetVersion = "2021.7";
         public const string assetStorePath = "content/111598";
         public const string assetStorePathShortLink = "http://u3d.as/16cX";
         public const string assetForumPath = "https://forum.unity.com/threads/advanced-dissolve.517354/";

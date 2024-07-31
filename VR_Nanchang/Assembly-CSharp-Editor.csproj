@@ -72,6 +72,7 @@
     <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Utilities\AdvancedDissolveKeywordsBaker.cs" />
     <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Property Drawers\AdvancedDissolveUVScrollDrawer.cs" />
     <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Built-in Shader Editors\StandardParticlesShaderGUI.cs" />
+    <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\HDRP Shader Editors\Shader Graph\AdvancedDissolveDefaultShaderGraphGUI.cs" />
     <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Property Drawers\Keywords\AdvancedDissolveKeywordGlobalControlIDDrawer.cs" />
     <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Base\AssetInfo.cs" />
     <Compile Include="Assets\Amazing Assets\Advanced Dissolve\Editor\Property Drawers\AdvancedDissolveColorRGBDrawer.cs" />

@@ -6,7 +6,7 @@ using DG.Tweening;
 using System;
 
 /// <summary>
-/// 机械臂操控+圆盘旋转
+/// 机械臂操控+圆盘旋转+Plane移动显示模型
 /// </summary>
 public class MechanicalArm : MonoBehaviour
 {
@@ -35,7 +35,7 @@ public class MechanicalArm : MonoBehaviour
     // 协程：处理启动顺序
     private IEnumerator HandleStartSequence()
     {
-        if (planeMoveTran.position.x == 10)
+        if (planeMoveTran.position.z == 10)
         {
             DisappearModel();
             yield return new WaitForSeconds(1f); // 等待1秒，确保动画完成
@@ -126,12 +126,12 @@ public class MechanicalArm : MonoBehaviour
 
     private void AppearModel()
     {
-    /*添加机械臂出现*/
-        planeMoveTran.DOMoveX(10, 1f);
+        /*添加机械臂出现*/
+        planeMoveTran.DOMoveZ(-10, 1f);
     }
     private void DisappearModel()
     {
         /*添加机械臂消失*/
-        planeMoveTran.DOMoveX(-10, 1f);
+        planeMoveTran.DOMoveZ(10, 1f);
     }
 }

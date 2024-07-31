@@ -11,6 +11,9 @@ using Valve.VR;
 
 public class ReticlePoser : MonoBehaviour
 {
+    /// <summary>
+    /// 射线交互
+    /// </summary>
     public interface IMaterialChanger
     {
         Material reticleMaterial { get; }
@@ -54,8 +57,6 @@ public class ReticlePoser : MonoBehaviour
     [SerializeField] private GameObject guideLine_false; // 红色射线
     [SerializeField] private GameObject guideLine_true; // 绿色射线
 
-    [SerializeField] private SteamVR_Action_Boolean togglePointerAction; // 扣动扳机动作
-
     // 更新方法，用于控制瞄准标记的显示状态
     private void Update()
     {
@@ -75,18 +76,6 @@ public class ReticlePoser : MonoBehaviour
         //检测扳机按下开门物体
     }
 
-    // 交互逻辑（例如开门）
-    private void InteractWithObject(GameObject target)
-    {
-        if (target != null)
-        {
-            int index = interactive.IndexOf(target);
-            if (index == 2) // 判断是否为列表中的第 3 个物体（索引为 2）
-            {
-                Debug.Log($"与第 3 个物体 {target.name} 交互");
-            }
-        }
-    }
 
 
 #if UNITY_EDITOR

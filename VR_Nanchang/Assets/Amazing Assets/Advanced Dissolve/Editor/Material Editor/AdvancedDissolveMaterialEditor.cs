@@ -116,7 +116,7 @@ namespace AmazingAssets.AdvancedDissolveEditor
         static public bool foldoutDissolveProperties = true;
         static public bool foldoutUnityProperties = true;
         static public bool foldoutUnityFooterProperties;
-        static public bool foldoutCurvedWorld;
+        static public bool foldoutCurvedWrold;
 
         static float defaultLabelWidth;
 
@@ -249,7 +249,7 @@ namespace AmazingAssets.AdvancedDissolveEditor
             foldoutDissolveProperties = EditorPrefs.HasKey(prefName_DissolvePropertiesFoldout) ? EditorPrefs.GetBool(prefName_DissolvePropertiesFoldout) : true;
             foldoutUnityProperties = EditorPrefs.HasKey(prefName_UnityPropertiesFoldout) ? EditorPrefs.GetBool(prefName_UnityPropertiesFoldout) : true;
             foldoutUnityFooterProperties = EditorPrefs.HasKey(prefName_UnityFooterFoldout) ? EditorPrefs.GetBool(prefName_UnityFooterFoldout) : true;
-            foldoutCurvedWorld = EditorPrefs.HasKey(prefName_CurvedWorldFoldout) ? EditorPrefs.GetBool(prefName_CurvedWorldFoldout) : true;
+            foldoutCurvedWrold = EditorPrefs.HasKey(prefName_CurvedWorldFoldout) ? EditorPrefs.GetBool(prefName_CurvedWorldFoldout) : true;
         }
 
         static public MaterialProperty FindProperty(string propertyName, MaterialProperty[] properties, bool mandatory = true)
@@ -804,12 +804,10 @@ namespace AmazingAssets.AdvancedDissolveEditor
         {
             if (_CurvedWorldBendSettings != null)
             {
-                GUILayout.BeginVertical(EditorStyles.helpBox);
+                if (DrawHeader("Curved World", ref foldoutCurvedWrold, prefName_CurvedWorldFoldout, null, null))
                 {
-                    GUILayout.Label("Curved World", EditorStyles.boldLabel);
                     materialEditor.ShaderProperty(_CurvedWorldBendSettings, new GUIContent("Curved World"));
                 }
-                GUILayout.EndVertical();
 
                 GUILayout.Space(5);
             }
