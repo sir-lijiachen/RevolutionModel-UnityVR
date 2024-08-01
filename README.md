@@ -33,7 +33,7 @@
 
 ### Step 2
 
-* 在Player里挂载组件 'Character Controller'(角色控制器)和添加脚本'CharacterMovementControl'.
+* 在Player里挂载组件 `Character Controller`(角色控制器)和添加脚本'CharacterMovementControl'.
 >该脚本用于VR的移动和射线控制.
 
 ### Step 3
