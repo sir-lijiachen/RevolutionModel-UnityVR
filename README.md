@@ -29,17 +29,17 @@
 
 ### Step 1
 
-* 删掉初始摄像机，从'SteamVR/InteractionSystem/Core/Prefabs'里拖拽'Player'到Hierarchy中.
+* 删掉初始摄像机，从SteamVR/InteractionSystem/Core/Prefabs里拖拽`Player`到Hierarchy中.
 
 ### Step 2
 
-* 在Player里挂载组件 `Character Controller`(角色控制器)和添加脚本'CharacterMovementControl'.
+* 在Player里挂载组件 `Character Controller`(角色控制器)和添加脚本`CharacterMovementControl`.
 >该脚本用于VR的移动和射线控制.
 
 ### Step 3
 
 #### 添加射线
-* 通过右键找到Prefab中的Unpack解锁Player模型，将'HTC.UnityPlugin/ViveInputUtility/Prefabs'里的'VivePointers'添加到'Player下SteamVRObjects'里.
+* 通过右键找到Prefab中的Unpack解锁Player模型，将HTC.UnityPlugin/ViveInputUtility/Prefabs里的`VivePointers`添加到Player下SteamVRObjects里.
 #### 射线开关
 * 复制一份GuideLine，并修改Material材质.<br>
 * 添加脚本'VivePointersControl'到VivePointers下，并赋值手柄按键.
@@ -49,9 +49,9 @@
 ### Step 4
 * 在Hierarchy中，创建门Door.
 #### Canvas配置
-* 添加'Canvas-Button'，将Canvas中的Render Mode设置为World Space，将Canvas Scaler和Graphic Raycaster禁用，然后挂载自带的'Canvas Raycast Target'脚本，便于UI交互
+* 添加`Canvas-Button`，将Canvas中的Render Mode设置为World Space，将Canvas Scaler和Graphic Raycaster禁用，然后挂载自带的`Canvas Raycast Target`脚本，便于UI交互
 #### 门的交互
-* 添加脚本'MoveOpenDoor'到Door里，实现开关门移动.
+* 添加脚本`MoveOpenDoor`到Door里，实现开关门移动.
 
 ### Step 5
 * 在Hierarchy中，创建空对象Content.
@@ -70,7 +70,7 @@
 #### 面板
 * 创建空对象Panel.
 * 创建Canvas，放于Panel下。操作如上次一样，将Canvas中的Render Mode设置为World Space，将Canvas Scaler和Graphic Raycaster禁用，然后挂载自带的'Canvas Raycast Target'脚本，便于UI交互.<br>
-* 创建Panel空对象，并添加脚本'MenuBar'.<br>
+* 创建Panel空对象，并添加脚本`MenuBar`.<br>
 * 创建三个图片，分别是MenuScreen、TextScreen、VideoScreen.
 >具体情况如分布
 
